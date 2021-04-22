@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-justify: justify;
+    color: navy;
+}
+
+body {
+    background-color: rgb(235, 235, 235);
+    margin: 3em 5em;
+    opacity: 90%;
+}
+
+.contact li strong{
+    color: yellow;
+}
+
+.contact li {
+    display: inline-flex;
+    list-style: none;
+    margin: 1em;
+    font-size: 1rem;
+    padding: 0.2vw;
+    color:yellow;
+}
+
+.right strong {
+    color: yellow;
+}
+
+.right {
+    text-transform: uppercase;
+    text-align: right;
+    margin: 1em;
+    font-size: 1.9rem;
+    padding: 0.2vw;
+    font-style: italic;
+}
+
+.sub-head {
+    font-size: 1.1rem;
+    color: yellow;
+}
+
+.right li {
+    list-style: none;
+    text-transform: lowercase;
+    font-size: 1rem;
+    color: yellow;
+}
+
+.summary {
+    margin: 2em;
+    padding: 0.2vw;
+    font-size: 1rem;
+}
+
+.summary li {
+    padding: 0.2vw;
+    margin-left: 5em;
+}
+
+.skills {
+    margin: 2em;
+    padding: 0.2vw;
+}
+
+.skills li{
+    margin-left: 3em;
+    padding: 0.5vw;
+    list-style: none;
+}
+
+.experience {
+    margin: 2em;
+    padding: 0.5vw;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.experience li{
+    margin-left: 4em;
+    padding: 0.2vw;
+}
+
+.Qualifications {
+    margin: 2em;
+    padding: 0.5vw;
+}
+
+.other {
+    margin: 2em;
+    padding: 0.5vw;
+}
+
+.other li{
+    margin-left: 3em;
+    padding: 0.2vw;
+}
+
+.skills-set {
+    margin: 2em;
+    padding: 0.5vw;
+}
+
+.skills-set li {
+    margin-left: 3em;
+    padding: 0.2vw;
+}
+
+.interest {
+    margin: 2em;
+    padding: 0.2vw;
+}
+
+.interest li {
+    margin-left: 3em;
+    padding: 0.2vw;
+    list-style: none;
+
+}
+
+header {
+    background-color: navy;
+}
+
+main {
+    margin-left: 10em;
+    border-top-style: solid;
+}
+
+section {
+    border-bottom: 3px solid navy;
+}
+
+section-two {
+    display:inline-flex;
+
+}
+
+footer {
+    text-align: center;
+    background-color:  navy;
+    padding: 0.7em;
+}
+
+footer h6 {
+    color: yellow;
+    font-size: 0.7rem;
+}
+
+@media screen and (max-width:768px) {
+
+    body{
+        margin: 0.7em;
+    }
+
+    .contact li {
+        margin: 0.5em;
+        font-size: 0.8rem;
+    }
+    
+    .right {
+        text-transform: uppercase;
+        text-align: right;
+        margin: 1em;
+        font-size: 1.2rem;
+        padding: 0.2vw;
+    }
+    
+    .experience {
+        margin: 1.5em;
+        padding: 0.5vw;
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    
+    .experience li{
+        margin-left: 1.2em;
+        padding: 0.2vw;
+    }
+
+    .summary li {
+        padding: 0.2vw;
+        margin-left: 3em;
+    }
+
+    .skills li{
+        margin-left: 1.5em;
+        padding: 0.2vw;
+    }
+
+    main {
+        margin-left: 2em;
+    }
+
+    section-two {
+        flex-wrap: wrap;
+    }
+
+    footer {
+        text-align: center;
+        background-color:  navy;
+        padding: 0.5em;
+    }
+    
+    footer h6 {
+        color: yellow;
+        font-size: 0.4rem;
+    }
+}
